@@ -78,7 +78,7 @@
 
 			// Add padding at the bottom for better UX
 			ed.onInit.add(function(ed){
-				ed.dom.setStyle(ed.getBody(), 'paddingBottom', ed.getParam('autoresize_bottom_margin', 50) + 'px');
+				ed.dom.setStyle(ed.getBody(), 'paddingBottom', ed.getParam('autoresize_bottom_margin', 10) + 'px');
 			});
 
 			// Add appropriate listeners for resizing content area
